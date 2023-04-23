@@ -1,0 +1,129 @@
+/* Basic Styling */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li:before {
+    content: "\2022";
+    color: #3f51b5;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Header Section */
+.header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 50px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Objective Section */
+.objective {
+    padding: 30px 50px;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.objective h2 {
+    font-size: 24px;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+.education {
+    padding: 30px 50px;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+    font-size: 24px;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+.education li {
+    margin-bottom: 10px;
+}
+
+/* Work Experience Section */
+.work-experience {
+    padding: 30px 50px;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h2 {
+    font-size: 24px;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+.work-experience li {
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 30px 50px;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 24px;
+    color: #3f51b5;
+    margin-bottom: 20px;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.skills li:hover {
+    background-color: #fff;
+    color: #3f51b5;
+    border: 2px solid #3f51b5;
+}
